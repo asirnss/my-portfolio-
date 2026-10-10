@@ -258,3 +258,30 @@ color: #1a1a2e;
 margin-bottom: 15px;
 color: #444;
 }
+
+/* Соцсети */
+.socials {
+  margin-top: 30px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+.socials a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: #e94560;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 22px;
+  text-decoration: none;
+  transition: transform 0.3s, background 0.3s;
+}
+
+.socials a:hover {
+  transform: translateY(-5px);
+  background: #c73650;
+}
