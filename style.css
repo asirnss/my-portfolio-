@@ -100,6 +100,9 @@ font-size: 18px;
 padding: 60px 15px;
 .portfolio {
 padding: 50px 15px;
+.about-photo img {
+    height: 220px;
+  }
 }
 
 .portfolio h2 {
@@ -228,6 +231,13 @@ align-items: center;
 justify-content: center;
 font-size: 18px;
 font-weight: bold;
+} 
+.about-photo img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
 }
 
 .about-text {
